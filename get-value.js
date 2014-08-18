@@ -133,5 +133,5 @@ var getValue = function getValue( condition, collectionName, databaseName, datab
 var mongoose = require( "mongoose" );
 var resolveQueryCondition = require( "./resolve-query-condition/resolve-query-condition.js" );
 
-module.exports = deleteValue;
+module.exports = getValue;
 
